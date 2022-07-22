@@ -46,7 +46,7 @@ const Login: NextPage = () => {
       const response = await res.json();
 
       if (response === "SUCCESS") {
-        localStorage.setItem("userData", JSON.stringify(data.data));
+        localStorage.setItem("userData", JSON.stringify(response.data));
         router.push("/dashboard");
       } else {
         setError("Invalid Credentials!");
