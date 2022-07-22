@@ -269,7 +269,7 @@ const Register: NextPage = () => {
                     }
                     label={
                       <Typography variant={"subtitle2"}>
-                        I agree to receive communication from Oneupgaming and their
+                        I agree to receive communication from OneUpGaming and their
                         partners.
                       </Typography>
                     }
