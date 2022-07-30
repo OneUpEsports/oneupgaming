@@ -1,12 +1,16 @@
 import React from "react";
+import Footer from "./Footer";
+import Header from "./Header";
+import Main from "./Main";
 
 function Landing() {
     return (
         <>
-        <div className="h-screen w-full bg-black text-center grid place-content-center">
-            <h1 className="text-3xl font-bold text-center text-white">
-                oneupgaming
-            </h1>
+        <div className="h-screen w-full bg-black">
+        
+        <Header />
+        <Main />
+        <Footer />
         </div>
         </>
     )
