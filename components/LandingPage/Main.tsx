@@ -8,7 +8,7 @@ function Main() {
     <main className="flex justify-between p-5 max-w-7xl mx-auto">
                 <div className="space-y-5 xl:space-y-5">
                     <span className=" font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-600">
-                        Are you ready for the Future of Esports?
+                        Are you ready for the Future of eSports?
                     </span> 
                 <div>
 

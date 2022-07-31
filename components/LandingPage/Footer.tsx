@@ -37,7 +37,7 @@ function Footer() {
 						</div>
 						
 						<div className="flex gap-6 pb-5">
-							<p className="text-slate-400">© by OneUpGaming.io</p>
+							<p className="text-slate-400">© by OneUpGaming</p>
 						</div>
 
 					</ul>
