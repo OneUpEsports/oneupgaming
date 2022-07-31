@@ -13,11 +13,11 @@ function Main() {
 
                 <div className="space-y-5 xl:space-y-5">
                     <span className=" text-sm  text-center  text-slate-300 border-solid border-2 border-sky-500 p-2 rounded-md">
-                        <a className='' href="www.youtube.com"> Join Our Discord</a>
+                        <a className='' href="https://discord.gg/mjGsssjQ"> Join Our Discord</a>
                     </span>
 
 
-                    <div className = "flex justify-start sm:justify-start lg:justify-start xl:justify-start -space-x-1.5">
+                    {/* <div className = "flex justify-start sm:justify-start lg:justify-start xl:justify-start -space-x-1.5">
                     <img className='w-6 h-6 rounded-full bg-slate-100 ring-2 ring-white dark:ring-slate-700 dark:group-hover:ring-white'
                      src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=facearea&facepad=2&w=48&h=48&q=80" alt="" />
                      <img className='w-6 h-6 rounded-full bg-slate-100 ring-2 ring-white dark:ring-slate-700 dark:group-hover:ring-white'
@@ -27,13 +27,10 @@ function Main() {
                     <img className='w-6 h-6 rounded-full bg-slate-100 ring-2 ring-white dark:ring-slate-700 dark:group-hover:ring-white'
                      src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=facearea&facepad=2&w=48&h=48&q=80" alt="" />
                     <img className='w-6 h-6 rounded-full bg-slate-100 ring-2 ring-white dark:ring-slate-700 dark:group-hover:ring-white'
-                     src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=facearea&facepad=2&w=48&h=48&q=80" alt="" />
+                     src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=facearea&facepad=2&w=48&h=48&q=80" alt="" /> */}
                     
-                    </div>
-                    <p className=' text-slate-300'> Already 36 joined..</p>
-                    
-
-
+                    {/* </div>
+                    <p className=' text-slate-300'> Already 36 joined..</p> */}
                 </div>
                 </div>
 
