@@ -11,10 +11,30 @@ function Footer() {
 				
 					<ul>
 						<div className="flex gap-6 pb-5">
-							<FaInstagram  className="text-2xl cursor-pointer text-white " /> 
-							<FaTwitter href="twitter.com/oneupgaming.io" className="text-2xl cursor-pointer text-white " /> 
-							<FaLinkedin href="linkedin.com/oneupgaming.io" className="text-2xl cursor-pointer text-white " />
-							<FaYoutube href="linkedin.com/oneupgaming.io" className="text-2xl cursor-pointer text-white " />
+							<div>
+								<a href="http://twitter.com/oneupgaming.io"> <FaTwitter className="text-2xl cursor-pointer text-white " />  </a>
+								
+							</div>
+							
+							<div>
+								<a href="https://instagram.com/oneupgaming.io">
+								<FaInstagram  className="text-2xl cursor-pointer text-white " />
+								</a>
+							</div>
+
+							<div> 
+								<a href="https://linkedin.com/oneupgaming.io">
+									<FaLinkedin  className="text-2xl cursor-pointer text-white " /> 
+								</a>
+							</div>
+
+							<div>
+								<a href="https://www.youtube.com/channel/UCUA1kR6sFcWCpqVMMiKbPtw">
+									<FaYoutube className="text-2xl cursor-pointer text-white " />
+								</a>
+							</div>
+						
+						
 						</div>
 						<div className="flex gap-6 pb-5">
 							<p className="text-slate-400">© by OneUpGaming IO</p>

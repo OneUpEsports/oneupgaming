@@ -12,11 +12,11 @@ function Header() {
             </Link>
             
             <div className="hidden md:inline-flex items-center space-x-4">
-                <h3>About</h3>
-                <h3>Contact</h3>
+                {/* <h3>About</h3>
+                <h3>Contact</h3> */}
                 <h3 className="text-white bg-blue-400
                     px-5 py-1 rounded-full
-                    ">Follow Us</h3>
+                    " > Follow Us</h3>
             </div>
         <div>
     </div>
