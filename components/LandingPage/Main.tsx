@@ -1,6 +1,7 @@
 import Image from 'next/image'
-import { FaDiscord } from 'react-icons/fa';
+import { FaDiscord, FaTwitter } from 'react-icons/fa';
 import {FaArrowDown} from 'react-icons/fa'
+
 
 function Main() {
     return (
@@ -13,7 +14,8 @@ function Main() {
 
                 <div className="space-y-5 xl:space-y-5">
                     <span className=" text-sm  text-center  text-slate-300 border-solid border-2 border-sky-500 p-2 rounded-md">
-                        <a className='' href="https://discord.gg/mjGsssjQ"> Join Our Discord</a>
+                        <a className='' href="https://discord.gg/mjGsssjQ" >  Join Our Discord  
+                        </a>
                     </span>
 
 
