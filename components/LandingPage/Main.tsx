@@ -13,7 +13,7 @@ function Main() {
 
                 <div className="space-y-5 xl:space-y-5">
                     <span className=" text-sm  text-center  text-slate-300 border-solid border-2 border-sky-500 p-2 rounded-md">
-                        <a className='' href="https://discord.gg/mjGsssjQ" >  Join Our Discord  
+                        <a className='' href="https://discord.gg/mHD6R5Kxmz" >  Join Our Discord  
                         </a>
                     </span>                    
                 </div>
