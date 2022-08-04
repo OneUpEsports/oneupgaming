@@ -370,6 +370,11 @@
 "@gar/promisify@^1.1.3":
   "version" "1.1.3"
 
+"@headlessui/react@^1.6.6":
+  "integrity" "sha512-MFJtmj9Xh/hhBMhLccGbBoSk+sk61BlP6sJe4uQcVMtXZhCgGqd2GyIQzzmsdPdTEWGSF434CBi8mnhR6um46Q=="
+  "resolved" "https://registry.npmjs.org/@headlessui/react/-/react-1.6.6.tgz"
+  "version" "1.6.6"
+
 "@hookform/resolvers@^2.9.6":
   "integrity" "sha512-f4VxF8w9rdX0WsDCk3FW1dGPj/Sj8+1Ulcgtm5ymgWEpbA/fjY+NUDh+L9hftmxDgP8+EJFtF+qFK4gPEXVrVQ=="
   "resolved" "https://registry.npmjs.org/@hookform/resolvers/-/resolvers-2.9.6.tgz"
@@ -531,14 +536,9 @@
   dependencies:
     "glob" "7.1.7"
 
-"@next/swc-linux-x64-gnu@12.2.2":
-  "integrity" "sha512-ir1vNadlUDj7eQk15AvfhG5BjVizuCHks9uZwBfUgT5jyeDCeRvaDCo1+Q6+0CLOAnYDR/nqSCvBgzG2UdFh9A=="
-  "resolved" "https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-12.2.2.tgz"
-  "version" "12.2.2"
-
-"@next/swc-linux-x64-musl@12.2.2":
-  "integrity" "sha512-bte5n2GzLN3O8JdSFYWZzMgEgDHZmRz5wiispiiDssj4ik3l8E7wq/czNi8RmIF+ioj2sYVokUNa/ekLzrESWw=="
-  "resolved" "https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-12.2.2.tgz"
+"@next/swc-win32-x64-msvc@12.2.2":
+  "integrity" "sha512-2D2iinWUL6xx8D9LYVZ5qi7FP6uLAoWymt8m8aaG2Ld/Ka8/k723fJfiklfuAcwOxfufPJI+nRbT5VcgHGzHAQ=="
+  "resolved" "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-12.2.2.tgz"
   "version" "12.2.2"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -3210,7 +3210,7 @@
   "resolved" "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz"
   "version" "5.1.1"
 
-"react-dom@^17.0.0 || ^18.0.0", "react-dom@^17.0.2 || ^18.0.0-0", "react-dom@>= 16.8.0", "react-dom@>=16.6.0", "react-dom@18.2.0":
+"react-dom@^16 || ^17 || ^18", "react-dom@^17.0.0 || ^18.0.0", "react-dom@^17.0.2 || ^18.0.0-0", "react-dom@>= 16.8.0", "react-dom@>=16.6.0", "react-dom@18.2.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -3268,7 +3268,7 @@
     "loose-envify" "^1.4.0"
     "prop-types" "^15.6.2"
 
-"react@*", "react@^16.3.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17 || ^18", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.3", "react@>=16.3.0", "react@>=16.6.0", "react@>=16.8.0", "react@18.2.0":
+"react@*", "react@^16 || ^17 || ^18", "react@^16.3.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17 || ^18", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.3", "react@>=16.3.0", "react@>=16.6.0", "react@>=16.8.0", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
